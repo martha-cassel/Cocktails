@@ -1,4 +1,0 @@
-Cocktails
-=========
-
-cocktailsToTravis
