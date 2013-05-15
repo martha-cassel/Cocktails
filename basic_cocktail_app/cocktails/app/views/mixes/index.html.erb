@@ -1,0 +1,27 @@
+<h1>Listing mixes</h1>
+
+<table>
+  <tr>
+    <th>Drink</th>
+    <th>Mixable</th>
+    <th>Mixable type</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @mixes.each do |mix| %>
+  <tr>
+    <td><%= mix.drink_id %></td>
+    <td><%= mix.mixable_id %></td>
+    <td><%= mix.mixable_type %></td>
+    <td><%= link_to 'Show', mix %></td>
+    <td><%= link_to 'Edit', edit_mix_path(mix) %></td>
+    <td><%= link_to 'Destroy', mix, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Mix', new_mix_path %>

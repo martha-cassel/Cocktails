@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  glass_id: 
+  name: MyString
+  description: MyText
+  variation_description: MyText
+  image: MyString
+  directions: MyText
+
+two:
+  glass_id: 
+  name: MyString
+  description: MyText
+  variation_description: MyText
+  image: MyString
+  directions: MyText

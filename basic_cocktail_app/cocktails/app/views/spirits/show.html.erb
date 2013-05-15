@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @spirit.name %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @spirit.type %>
+</p>
+
+
+<%= link_to 'Edit', edit_spirit_path(@spirit) %> |
+<%= link_to 'Back', spirits_path %>

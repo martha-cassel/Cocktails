@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Glass:</b>
+  <%= @drink.glass_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @drink.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @drink.description %>
+</p>
+
+<p>
+  <b>Variation description:</b>
+  <%= @drink.variation_description %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%= @drink.image %>
+</p>
+
+<p>
+  <b>Directions:</b>
+  <%= @drink.directions %>
+</p>
+
+
+<%= link_to 'Edit', edit_drink_path(@drink) %> |
+<%= link_to 'Back', drinks_path %>
